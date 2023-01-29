@@ -1,0 +1,151 @@
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/stylesheets/completely.scss ***!
+  \************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/********************************
+
+  header
+
+********************************/
+/* メニュースクロールイベントの際に使用 */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 100;
+}
+.header.triggered {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+}
+.header nav {
+  width: 80%;
+}
+.header nav ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header nav li {
+  text-align: center;
+  width: 25%;
+}
+.header nav li a {
+  font-weight: 600;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90px;
+  max-width: 1280px;
+  padding: 20px 0;
+}
+@media screen and (min-width: 1024px) {
+  .header__inner {
+    display: block;
+  }
+}
+.header__logo-pc {
+  width: 20%;
+}
+.header__boxes {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__flex {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .header__flex {
+    width: 50%;
+  }
+}
+.header__flex-pc {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 520px;
+  width: 60%;
+}
+.header__box {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 440px;
+  width: 45%;
+}
+.header__box button {
+  background-color: #F5A623;
+  border-radius: 5px;
+  max-width: 140px;
+  width: 33%;
+}
+.header__box button.under {
+  background-color: #1B224C;
+}
+.header__tel {
+  max-width: 138px;
+  width: 33%;
+}
+.header__tel ul {
+  line-height: 1.6875;
+}
+.header__tel li {
+  text-align: right;
+}
+.header__tel li.time {
+  font-size: 12px;
+}
+.header__tel li.tel {
+  letter-spacing: 1px;
+  position: relative;
+}
+.header__tel li.tel::before {
+  background-image: url(../a7a8d2b7a6e3f77946a7.svg);
+  background-size: contain;
+  content: "";
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/********************************
+ パンくずリスト
+*********************************/
+.breadcrumb-nav {
+  background-color: #F8F8F8;
+}
+.breadcrumb-nav a {
+  font-size: 12px;
+  color: #1B224C;
+}
+.breadcrumb-nav li {
+  font-size: 10px;
+  margin: 0 5px;
+  color: #1B224C;
+}
+.breadcrumb-nav__inner {
+  max-width: 900px;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=completely.css.map*/

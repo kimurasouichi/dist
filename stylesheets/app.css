@@ -1,0 +1,323 @@
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/stylesheets/index.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/********************************
+
+  TOP/concept
+
+********************************/
+.concept {
+  background: #1B224C;
+}
+.concept h1 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  .concept h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .concept h1 {
+    font-size: 36px;
+  }
+}
+.concept h2 {
+  text-align: center;
+  line-height: 1.3888888889;
+  font-size: 18px;
+}
+.concept h2 span {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  line-height: 0.5;
+  border-bottom: #F5A623 solid 6px;
+}
+@media screen and (min-width: 1024px) {
+  .concept h2 {
+    font-size: 36px;
+  }
+}
+.concept p {
+  font-size: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .concept p {
+    font-size: 18px;
+  }
+}
+.concept ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2.1666666667;
+}
+.concept li {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .concept li {
+    font-size: 18px;
+  }
+}
+.concept__inner {
+  padding: 60px 0 50px;
+}
+.concept__boxes {
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .concept__boxes {
+    max-width: 900px;
+  }
+}
+.concept__box {
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .concept__box.top {
+    margin-bottom: 60px;
+  }
+}
+.concept__box.under {
+  padding: 10px 0;
+  background-color: white;
+  height: 130px;
+  border: 2px solid #1B224C;
+}
+@media screen and (min-width: 1024px) {
+  .concept__box.under {
+    padding: 15px 0;
+    height: 220px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .concept__box {
+    height: 150px;
+  }
+}
+.concept__txt {
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .concept__txt {
+    max-width: 550px;
+  }
+}
+.concept__p {
+  line-height: 1.7222222222;
+}
+
+/********************************
+
+  header
+
+********************************/
+/* メニュースクロールイベントの際に使用 */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 100;
+}
+.header.triggered {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+}
+.header nav {
+  width: 80%;
+}
+.header nav ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header nav li {
+  text-align: center;
+  width: 25%;
+}
+.header nav li a {
+  font-weight: 600;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90px;
+  max-width: 1280px;
+  padding: 20px 0;
+}
+@media screen and (min-width: 1024px) {
+  .header__inner {
+    display: block;
+  }
+}
+.header__logo-pc {
+  width: 20%;
+}
+.header__boxes {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__flex {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .header__flex {
+    width: 50%;
+  }
+}
+.header__flex-pc {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 520px;
+  width: 60%;
+}
+.header__box {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 440px;
+  width: 45%;
+}
+.header__box button {
+  background-color: #F5A623;
+  border-radius: 5px;
+  max-width: 140px;
+  width: 33%;
+}
+.header__box button.under {
+  background-color: #1B224C;
+}
+.header__tel {
+  max-width: 138px;
+  width: 33%;
+}
+.header__tel ul {
+  line-height: 1.6875;
+}
+.header__tel li {
+  text-align: right;
+}
+.header__tel li.time {
+  font-size: 12px;
+}
+.header__tel li.tel {
+  letter-spacing: 1px;
+  position: relative;
+}
+.header__tel li.tel::before {
+  background-image: url(../a7a8d2b7a6e3f77946a7.svg);
+  background-size: contain;
+  content: "";
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/********************************
+ TOP/hero
+*********************************/
+.hero {
+  background-image: url(../src/images/hero/fv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 50%;
+  margin-top: 90px;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-position: 50% 50%;
+  }
+}
+.hero h1 {
+  font-size: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+}
+.hero a.contact {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.hero button {
+  width: 80%;
+  max-width: 260px;
+  border-radius: 30px;
+}
+.hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 476px;
+}
+.hero__txt {
+  color: white;
+  height: 270px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero__p {
+  text-align: center;
+  line-height: 1.7222222222;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .hero__p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map*/
